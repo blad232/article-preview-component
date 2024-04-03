@@ -167,4 +167,46 @@ footer {
         width: 285px;
     }
 
+    .icon-share {
+        margin-right: 2.2rem;
+    }
+
+
+    .icons {
+        height: 18px;
+        width: 18px;
+    }
+
+    .share {
+        position: absolute;
+        z-index: 2;
+        width: 255px;
+        height: 55px;
+        border-radius: 10px;
+        align-items: center;
+        justify-content: center;
+        top: 11rem;
+        right: -6.1rem;
+
+    }
+
+    .triangle {
+        position: absolute;
+        height: 30px;
+        width: 30px;
+        background: var(--Very-Dark-Grayish-Blue);
+        margin: 0 auto;
+        transform: rotate(45deg);
+        z-index: -1;
+        top: 3.3rem;
+    }
+
+    .--background-share {
+        background: var(--Very-Dark-Grayish-Blue);
+
+        #svg>path {
+            fill: white;
+        }
+    }
+
 }
